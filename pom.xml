@@ -68,5 +68,10 @@
 			<artifactId>vebtal-pdf</artifactId>
 			<version>0.0.1-Snapshot</version>
 		</dependency>
+		<dependency>
+			<groupId>org.vebqa.vebtal</groupId>
+			<artifactId>vebtal-wsdl</artifactId>
+			<version>0.0.1-Snapshot</version>
+		</dependency>
 	</dependencies>
 </project>
