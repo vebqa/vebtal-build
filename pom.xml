@@ -56,6 +56,11 @@
 		</dependency>
 		<dependency>
 			<groupId>org.vebqa.vebtal</groupId>
+			<artifactId>vebtal-api</artifactId>
+			<version>0.9</version>
+		</dependency>		
+		<dependency>
+			<groupId>org.vebqa.vebtal</groupId>
 			<artifactId>vebtal-5250</artifactId>
 			<version>0.0.1-Snapshot</version>
 		</dependency>
@@ -67,12 +72,7 @@
 		<dependency>
 			<groupId>org.vebqa.vebtal</groupId>
 			<artifactId>vebtal-pdf</artifactId>
-			<version>0.0.1-Snapshot</version>
-		</dependency>
-		<dependency>
-			<groupId>org.vebqa.vebtal</groupId>
-			<artifactId>vebtal-wsdl</artifactId>
-			<version>0.0.1-Snapshot</version>
+			<version>0.9</version>
 		</dependency>
 		<dependency>
 			<groupId>org.vebqa.vebtal</groupId>
