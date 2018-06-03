@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>org.vebqa.vebtal</groupId>
 	<artifactId>vebtal-build</artifactId>
-	<version>0.0.1</version>
+	<version>0.9.1</version>
 	<build>
 		<plugins>
 			<plugin>
@@ -52,32 +52,32 @@
 		<dependency>
 			<groupId>org.vebqa.vebtal</groupId>
 			<artifactId>vebtal-manager</artifactId>
-			<version>0.0.1-Snapshot</version>
+			<version>0.9.1</version>
 		</dependency>
 		<dependency>
 			<groupId>org.vebqa.vebtal</groupId>
 			<artifactId>vebtal-api</artifactId>
-			<version>0.9</version>
+			<version>0.9.1</version>
 		</dependency>		
 		<dependency>
 			<groupId>org.vebqa.vebtal</groupId>
 			<artifactId>vebtal-5250</artifactId>
-			<version>0.0.1-Snapshot</version>
+			<version>0.9.1</version>
 		</dependency>
 		<dependency>
 			<groupId>org.vebqa.vebtal</groupId>
 			<artifactId>vebtal-selenium</artifactId>
-			<version>0.0.1-Snapshot</version>
+			<version>0.9.1</version>
 		</dependency>
 		<dependency>
 			<groupId>org.vebqa.vebtal</groupId>
 			<artifactId>vebtal-pdf</artifactId>
-			<version>0.9</version>
+			<version>0.9.1</version>
 		</dependency>
 		<dependency>
 			<groupId>org.vebqa.vebtal</groupId>
 			<artifactId>vebtal-3270</artifactId>
-			<version>0.0.1-Snapshot</version>
+			<version>0.9.1</version>
 		</dependency>
 	</dependencies>
 </project>
