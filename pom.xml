@@ -1,9 +1,17 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>org.vebqa.vebtal</groupId>
 	<artifactId>vebtal-build</artifactId>
 	<version>0.9.1</version>
+
+	<name>VEBTAL Distribution</name>
+	<url>https://github.com/vebqa/vebtal-build</url>
+	<scm>
+		<url>https://github.com/vebqa/vebtal-build.git</url>
+	</scm>
+
 	<build>
 		<plugins>
 			<plugin>
@@ -48,7 +56,7 @@
 			<groupId>com.github.vebqa</groupId>
 			<artifactId>vebtal-api</artifactId>
 			<version>0.9.1</version>
-		</dependency>		
+		</dependency>
 		<dependency>
 			<groupId>com.github.vebqa</groupId>
 			<artifactId>vebtal-5250</artifactId>
