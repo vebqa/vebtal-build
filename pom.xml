@@ -7,11 +7,6 @@
 	<build>
 		<plugins>
 			<plugin>
-				<groupId>org.sonarsource.scanner.maven</groupId>
-				<artifactId>sonar-maven-plugin</artifactId>
-				<version>3.4.0.905</version>
-			</plugin>
-			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
 				<version>3.7.0</version>
@@ -23,12 +18,7 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-dependency-plugin</artifactId>
-				<version>3.0.2</version>
-			</plugin>
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-dependency-plugin</artifactId>
-				<version>3.0.2</version>
+				<version>3.1.1</version>
 				<executions>
 					<execution>
 						<id>copy-dependencies</id>
@@ -50,34 +40,34 @@
 
 	<dependencies>
 		<dependency>
-			<groupId>org.vebqa.vebtal</groupId>
+			<groupId>com.github.vebqa</groupId>
 			<artifactId>vebtal-manager</artifactId>
 			<version>0.9.1</version>
 		</dependency>
 		<dependency>
-			<groupId>org.vebqa.vebtal</groupId>
+			<groupId>com.github.vebqa</groupId>
 			<artifactId>vebtal-api</artifactId>
 			<version>0.9.1</version>
 		</dependency>		
 		<dependency>
-			<groupId>org.vebqa.vebtal</groupId>
+			<groupId>com.github.vebqa</groupId>
 			<artifactId>vebtal-5250</artifactId>
 			<version>0.9.1</version>
 		</dependency>
 		<dependency>
-			<groupId>org.vebqa.vebtal</groupId>
+			<groupId>com.github.vebqa</groupId>
 			<artifactId>vebtal-selenium</artifactId>
 			<version>0.9.1</version>
 		</dependency>
 		<dependency>
-			<groupId>org.vebqa.vebtal</groupId>
+			<groupId>com.github.vebqa</groupId>
 			<artifactId>vebtal-pdf</artifactId>
 			<version>0.9.1</version>
 		</dependency>
 		<dependency>
-			<groupId>org.vebqa.vebtal</groupId>
+			<groupId>com.github.vebqa</groupId>
 			<artifactId>vebtal-3270</artifactId>
-			<version>0.9.1</version>
+			<version>0.9.2</version>
 		</dependency>
 	</dependencies>
 </project>
