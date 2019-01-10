@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>org.vebqa.vebtal</groupId>
 	<artifactId>vebtal-build</artifactId>
-	<version>0.9.5-20181227</version>
+	<version>0.9.7-20190106</version>
 
 	<name>VEBTAL Distribution</name>
 	<url>https://github.com/vebqa/vebtal-build</url>
@@ -19,8 +19,7 @@
 				<artifactId>maven-compiler-plugin</artifactId>
 				<version>3.8.0</version>
 				<configuration>
-					<source>1.8</source>
-					<target>1.8</target>
+					<release>8</release>
 				</configuration>
 			</plugin>
 			<plugin>
@@ -99,32 +98,60 @@
 		<dependency>
 			<groupId>com.github.vebqa</groupId>
 			<artifactId>vebtal-manager</artifactId>
-			<version>0.9.6</version>
+			<version>0.9.8</version>
+			<exclusions>
+				<exclusion>
+					<groupId>javax.inject</groupId>
+					<artifactId>javax.inject</artifactId>
+				</exclusion>
+			</exclusions>
 		</dependency>
 		<dependency>
 			<groupId>com.github.vebqa</groupId>
 			<artifactId>vebtal-api</artifactId>
-			<version>0.9.5</version>
+			<version>0.9.7</version>
+			<exclusions>
+				<exclusion>
+					<groupId>org.openjfx</groupId>
+					<artifactId>javafx-controls</artifactId>
+				</exclusion>
+			</exclusions>
 		</dependency>
-		<dependency>
-			<groupId>com.github.vebqa</groupId>
-			<artifactId>vebtal-5250</artifactId>
-			<version>0.9.5</version>
-		</dependency>
+		<!-- <dependency> <groupId>com.github.vebqa</groupId> <artifactId>vebtal-5250</artifactId> 
+			<version>0.9.7</version> <exclusions> <exclusion> <groupId>org.bouncycastle</groupId> 
+			<artifactId>bctsp-jdk14</artifactId> </exclusion> </exclusions> </dependency> -->
 		<dependency>
 			<groupId>com.github.vebqa</groupId>
 			<artifactId>vebtal-selenium</artifactId>
-			<version>0.9.7</version>
+			<version>0.9.9</version>
+			<exclusions>
+				<exclusion>
+					<groupId>javax.inject</groupId>
+					<artifactId>javax.inject</artifactId>
+				</exclusion>
+			</exclusions>
 		</dependency>
 		<dependency>
 			<groupId>com.github.vebqa</groupId>
 			<artifactId>vebtal-pdf</artifactId>
-			<version>0.9.6</version>
+			<version>0.9.8</version>
+			<exclusions>
+				<exclusion>
+					<groupId>org.hamcrest</groupId>
+					<artifactId>hamcrest-library</artifactId>
+				</exclusion>
+			</exclusions>
 		</dependency>
 		<dependency>
 			<groupId>com.github.vebqa</groupId>
 			<artifactId>vebtal-3270</artifactId>
-			<version>0.9.5</version>
+			<version>0.9.7</version>
+		</dependency>
+
+		<dependency>
+			<groupId>bsf</groupId>
+			<artifactId>bsf</artifactId>
+			<version>2.4.0</version>
 		</dependency>
 	</dependencies>
 </project>
