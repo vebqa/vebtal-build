@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>org.vebqa.vebtal</groupId>
 	<artifactId>vebtal-build</artifactId>
-	<version>0.9.8-20190110</version>
+	<version>0.9.9-20190205</version>
 
 	<name>VEBTAL Distribution</name>
 	<url>https://github.com/vebqa/vebtal-build</url>
