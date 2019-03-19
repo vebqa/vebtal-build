@@ -98,7 +98,7 @@
 		<dependency>
 			<groupId>com.github.vebqa</groupId>
 			<artifactId>vebtal-api</artifactId>
-			<version>0.9.12</version>
+			<version>0.9.13</version>
 			<exclusions>
 				<exclusion>
 					<groupId>org.openjfx</groupId>
@@ -109,7 +109,7 @@
 		<dependency>
 			<groupId>com.github.vebqa</groupId>
 			<artifactId>vebtal-manager</artifactId>
-			<version>0.9.13</version>
+			<version>0.9.14</version>
 			<exclusions>
 				<exclusion>
 					<groupId>javax.inject</groupId>
@@ -123,7 +123,7 @@
 		<dependency>
 			<groupId>com.github.vebqa</groupId>
 			<artifactId>vebtal-selenium</artifactId>
-			<version>0.9.12</version>
+			<version>0.9.13</version>
 			<exclusions>
 				<exclusion>
 					<groupId>javax.inject</groupId>
@@ -134,7 +134,7 @@
 		<dependency>
 			<groupId>com.github.vebqa</groupId>
 			<artifactId>vebtal-pdf</artifactId>
-			<version>0.9.14</version>
+			<version>0.9.15</version>
 			<exclusions>
 				<exclusion>
 					<groupId>org.hamcrest</groupId>
@@ -145,7 +145,7 @@
 		<dependency>
 			<groupId>com.github.vebqa</groupId>
 			<artifactId>vebtal-3270</artifactId>
-			<version>0.9.11</version>
+			<version>0.9.12</version>
 		</dependency>
 		<dependency>
 			<groupId>com.github.vebqa</groupId>
@@ -155,12 +155,12 @@
 		<dependency>
 			<groupId>com.github.vebqa</groupId>
 			<artifactId>vebtal-msg</artifactId>
-			<version>0.9.2</version>
+			<version>0.9.3</version>
 		</dependency>
 		<dependency>
 			<groupId>com.github.vebqa</groupId>
 			<artifactId>vebtal-testdata</artifactId>
-			<version>0.9.0</version>
+			<version>0.9.1</version>
 		</dependency>
 		<dependency>
 			<groupId>bsf</groupId>
