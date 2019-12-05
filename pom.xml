@@ -4,9 +4,9 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>org.vebqa.vebtal</groupId>
 	<artifactId>vebtal-build</artifactId>
-	<version>1.0.2-00003-20191103</version>
+	<version>1.0.3-0001-20191204</version>
 
-	<name>VEBTAL Distribution</name>
+	<name>openTAL Distribution</name>
 	<url>https://github.com/vebqa/vebtal-build</url>
 	<scm>
 		<url>https://github.com/vebqa/vebtal-build.git</url>
@@ -106,14 +106,14 @@
 		<dependency>
 			<groupId>com.github.vebqa</groupId>
 			<artifactId>vebtal-api</artifactId>
-			<version>1.0.2</version>
+			<version>1.0.3</version>
 			<!-- <exclusions> <exclusion> <groupId>org.openjfx</groupId> <artifactId>javafx-controls</artifactId> 
 				</exclusion> </exclusions> -->
 		</dependency>
 		<dependency>
 			<groupId>com.github.vebqa</groupId>
 			<artifactId>vebtal-manager</artifactId>
-			<version>1.0.2</version>
+			<version>1.0.3</version>
 			<exclusions>
 				<exclusion>
 					<groupId>javax.inject</groupId>
@@ -124,7 +124,7 @@
 		<dependency>
 			<groupId>com.github.vebqa</groupId>
 			<artifactId>vebtal-5250</artifactId>
-			<version>1.0.2</version>
+			<version>1.0.3</version>
 			<exclusions>
 				<exclusion>
 					<groupId>org.bouncycastle</groupId>
@@ -135,7 +135,7 @@
 		<dependency>
 			<groupId>com.github.vebqa</groupId>
 			<artifactId>vebtal-selenium</artifactId>
-			<version>1.0.2.1</version>
+			<version>1.0.3</version>
 			<exclusions>
 				<exclusion>
 					<groupId>javax.inject</groupId>
@@ -146,7 +146,7 @@
 		<dependency>
 			<groupId>com.github.vebqa</groupId>
 			<artifactId>vebtal-pdf</artifactId>
-			<version>1.0.2</version>
+			<version>1.0.3</version>
 			<exclusions>
 				<exclusion>
 					<groupId>org.hamcrest</groupId>
@@ -157,22 +157,22 @@
 		<dependency>
 			<groupId>com.github.vebqa</groupId>
 			<artifactId>vebtal-3270</artifactId>
-			<version>1.0.2.1</version>
+			<version>1.0.3</version>
 		</dependency>
 		<dependency>
 			<groupId>com.github.vebqa</groupId>
 			<artifactId>vebtal-imagecompare</artifactId>
-			<version>1.0.2</version>
+			<version>1.0.3</version>
 		</dependency>
 		<dependency>
 			<groupId>com.github.vebqa</groupId>
 			<artifactId>vebtal-msg</artifactId>
-			<version>1.0.2.1</version>
+			<version>1.0.3</version>
 		</dependency>
 		<dependency>
 			<groupId>com.github.vebqa</groupId>
 			<artifactId>vebtal-testdata</artifactId>
-			<version>1.0.2</version>
+			<version>1.0.3</version>
 		</dependency>
 		<dependency>
 			<groupId>bsf</groupId>
